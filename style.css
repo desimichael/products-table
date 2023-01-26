@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.page-bg {
+   background-image: linear-gradient(to right bottom, #005d82, #527fa1, #86a2c0, #b7c8df, #e7efff);
+   min-height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+table {
+  background: #f8f8ff;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+table thead tr {
+  height: 60px;
+  background: #2f4858;
+}
+.table-head th {
+  color: #fffafa;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.column1 {
+  width: 260px;
+  text-align: left;
+  padding-left: 20px;
+}
+.column2 {
+  width: 260px;
+  text-align: left;
+  padding-left: 10px;
+}
+.column3 {
+  width: 245px;
+  text-align: left;
+}
+.column4 {
+  width: 110px;
+  text-align: right;
+}
+.column5 {
+  width: 160px;
+  text-align: right;
+}
+.column6 {
+  width: 200px;
+  text-align: right;
+  padding-right: 25px;
+}
+table tbody tr {
+  height: 50px;
+  transition: all .2s ease-in-out;
+}
+table tbody tr td {
+  font-size: 16px;
+  font-weight: 300;
+  color: #1b1b1b;
+  cursor: pointer;
+}
+table tbody tr:nth-child(even) {
+  background-color: #E7EFFF;
+}
+table tbody tr:hover td {
+  background-color: #E7EFFF;
+}
